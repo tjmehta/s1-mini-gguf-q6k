@@ -1,6 +1,7 @@
-# s1-mini GGUF Q6_K
+# S1-mini GGUF Q6_K
 
-GGUF Q6_K conversion of [superwhisper/s1-mini](https://huggingface.co/superwhisper/s1-mini)
+GGUF Q6_K conversion of "S1-mini" by "Superwhisper"
+([superwhisper/s1-mini](https://huggingface.co/superwhisper/s1-mini))
 (Qwen3-0.6B fine-tune for dictation cleanup), for llama.cpp CPU inference.
 
 Converted 2026-08-23 from snapshot 65f84bc via `convert_hf_to_gguf.py` (F16) +
@@ -9,6 +10,8 @@ Converted 2026-08-23 from snapshot 65f84bc via `convert_hf_to_gguf.py` (F16) +
 
 Built for Typefree's dictation cleanup: iOS denies Metal to backgrounded apps,
 so the CPU build is the one that can run while a keyboard extension is in
-front. License: per upstream model (see the superwhisper/s1-mini model card).
+front. License: Apache License 2.0 with an additional naming term, copied from
+the upstream model at revision 88f6b15; see [LICENSE](LICENSE) and
+[NOTICE](NOTICE).
 
 Weights are attached to the [v1 release](../../releases/tag/v1).
